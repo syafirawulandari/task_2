@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Our Products</title>
+        <style>
+            body {
+                font-size: 18px;
+                font-family: "Poppins", sans-serif;
+                background-color: rgb(250, 96, 199);
+
+            }
+            .box {
+                width: 90%;
+                max-width: 750px;
+                height: 590px;
+                background-size: 100%;
+                position: absolute;
+                padding: 10px;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                display: block;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0 12.5px 20px 1px rgba(0, 0, 0, 0.3);
+                border-radius: 30px;
+                color: #fff;
+                background: rgb(53, 28, 56);
+              }
+              .button {
+                background-color: #b47474;
+                border: none;
+                color: white;
+                padding: 10px 40px;
+                margin-top: 20px;
+                text-align: center;
+                text-decoration: none;
+                align-items: center;
+                font-size: 16px;
+                margin: 20px auto 0;
+                cursor: pointer;
+                border-radius: 12px;
+              }
+        </style>
+
+    </head>
+    <body>
+        <div class="box">
+            <h1 align="center">Choose Our Product</h1>
+            <h2 align="center">Wardah Lip Product</h2>
+            <div align="center">
+            <div>
+                    <img width="300px" src="https://www.merkkosmetik.com/wp-content/uploads/2019/03/Produk-Lipstik-Wardah-678x381.jpg" alt="Wardah Insta Perfect">
+                    <h3>Wardah Lipstick</h3>
+                    
+        </div>
+    
+            <form action="detail.html" method="GET" align="center">
+                <input type="radio" name="tipe" id="1" value="colorfit">
+                <label for="1">Wardah Colorfit Last All Day</label> <br>
+                <input type="radio" name="tipe" id="2" value="colorfit">
+                <label for="2">Wardah Insta Perfect</label><br>
+                <input type="radio" name="tipe" id="3" value="colorfit">
+                <label for="3">Wardah Colorfit velvet matte lip </label><br><br>
+                <label for="jumlah">Jumlah produk</label><br>
+        <input type="number" name="jumlah">
+
+
+               <br>
+                <button class="button" type="submit">Buy this product</button>
+            </form>    
+        </div>
+        
+    </body>
+</html>
